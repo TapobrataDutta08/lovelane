@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="300" viewBox="0 0 240 300">
+ <rect width="240" height="300" fill="#e7ddc6"/><rect x="7" y="7" width="226" height="286" rx="4" fill="#30584f" stroke="#e7ddc6" stroke-width="10" stroke-dasharray="6 5"/>
+ <rect x="20" y="20" width="200" height="260" fill="none" stroke="#c39a5a" stroke-width="2"/><rect x="27" y="27" width="186" height="246" fill="none" stroke="#e7ddc6" stroke-width="1" opacity=".65"/>
+ <rect x="72" y="94" width="96" height="96" rx="4" fill="none" stroke="#c39a5a" stroke-width="3" transform="rotate(45 120 142)"/><text x="120" y="161" text-anchor="middle" font-size="70" font-family="Georgia, serif" fill="#e7ddc6">☀</text>
+ <text x="120" y="53" text-anchor="middle" font-size="11" letter-spacing="3" font-family="Georgia, serif" fill="#e7ddc6">SAFFRON</text>
+ <text x="43" y="258" font-size="10" font-family="Georgia, serif" fill="#e7ddc6">LOVELANE</text><text x="190" y="259" text-anchor="middle" font-size="25" font-family="Georgia, serif" fill="#e7ddc6">6</text>
+ </svg>
