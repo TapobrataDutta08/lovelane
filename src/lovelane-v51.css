@@ -131,3 +131,20 @@ body{font-family:'Lora',Georgia,serif;letter-spacing:.005em}.home nav,.composer-
 .recipient-letter-peek{display:flex!important;flex-direction:column;justify-content:flex-start;align-items:stretch}.recipient-letter-peek h4{margin-top:12px!important}.recipient-letter-peek p{margin-top:20px!important;font-size:14px!important}.recipient-envelope.opening .recipient-letter-peek{animation-duration:1.15s!important}
 /* complete styled letter glimpse after the seal breaks */
 .recipient-letter-peek{display:block!important;padding:30px 38px 42px!important}.recipient-letter-peek h4{margin:0 0 18px!important}.recipient-letter-peek .glimpse-greeting{margin:0 0 14px!important;font-size:12px!important}.recipient-letter-peek .glimpse-body{display:block;font-size:10px!important;line-height:1.5!important;max-height:118px;overflow:hidden;white-space:pre-wrap}.recipient-letter-peek.has-saved-dropcap .glimpse-body::first-letter{float:left;font-family:'Bodoni Moda',serif;font-size:3.2em;line-height:.72;padding:6px 6px 1px 0;color:var(--rust);text-decoration:none}.recipient-letter-peek .glimpse-signature{display:block!important;position:absolute!important;right:32px!important;bottom:23px!important;text-align:right;font-size:10px!important;line-height:1.35}.recipient-letter-peek .glimpse-signature b{font-size:12px;color:inherit}@media(max-width:700px){.recipient-letter-peek{padding:22px 24px 38px!important}.recipient-letter-peek .glimpse-body{max-height:72px;font-size:8px!important}.recipient-letter-peek .glimpse-signature{right:23px!important;bottom:17px!important}}
+
+/* ================= MOBILE NAV MENU ================= */
+.mobile-menu .mobile-menu-label{font:600 11px 'Montserrat',sans-serif;letter-spacing:.08em}
+.mobile-nav{position:fixed;inset:0;z-index:120;background:#fdf8f0;display:flex;flex-direction:column;padding:22px 24px 40px;overflow:auto;animation:softRise .24s ease both}
+.mobile-nav-head{display:flex;align-items:center;justify-content:space-between;padding:4px 2px 18px;border-bottom:1px solid rgba(47,62,70,.14)}
+.mobile-nav-head>span{font:600 12px 'Montserrat',sans-serif;letter-spacing:.22em;color:var(--rust)}
+.mobile-nav-close{border:0;background:transparent;color:var(--ink);padding:6px;display:grid;place-items:center}
+.mobile-nav-links{display:flex;flex-direction:column;padding:6px 0 4px}
+.mobile-nav-links button{display:flex;align-items:center;gap:14px;width:100%;border:0;background:transparent;padding:15px 4px;text-align:left;font:400 17px/1.2 'Fraunces',Georgia,serif;color:var(--ink);border-bottom:1px solid rgba(47,62,70,.08);letter-spacing:.01em}
+.mobile-nav-links button svg{color:var(--rust);flex:none}
+.mobile-nav-links button span{flex:1}
+.mobile-nav-links button:active{color:var(--rust)}
+.mobile-nav-account{display:flex;flex-direction:column;gap:8px;margin-top:26px}
+.mobile-acct-row{border:1px solid var(--line);background:#fffdf8;border-radius:6px;padding:14px 16px;font:600 12px 'Montserrat',sans-serif;letter-spacing:.06em;color:var(--ink);display:flex;align-items:center;gap:10px}
+.mobile-acct-primary{border-color:var(--ink);background:var(--ink);color:#fffdf8}
+.mobile-acct-out{color:#a5432f;border-color:rgba(165,67,47,.5)}
+@media(min-width:768px){.mobile-nav{display:none}}
